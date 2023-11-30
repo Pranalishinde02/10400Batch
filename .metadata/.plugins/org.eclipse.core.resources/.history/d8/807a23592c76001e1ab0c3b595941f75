@@ -1,0 +1,10 @@
+package Polymorphism;
+
+public class Triangle extends Shape {
+	
+	public void Area()
+	{
+		System.out.println("Triangle is ½ * base * height");
+	}
+
+}

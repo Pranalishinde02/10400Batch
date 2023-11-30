@@ -1,0 +1,18 @@
+package Polymorphism;
+
+public class ShapeMain {
+
+	public static void main(String[] args) {
+		
+		Shape s1 = new Shape();
+		Shape s2 = new Triangle();
+		Shape s3 = new Circle();
+		s1.AreaFormula();
+		s2.AreaFormula();
+		s3.AreaFormula();
+		
+		s2.Area(20, 30);
+
+	}
+
+}

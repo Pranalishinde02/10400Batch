@@ -1,0 +1,11 @@
+package Polymorphism;
+
+public class Shape {
+	
+	public void AreaFormula()
+	{
+		System.out.println("The Formula for area of:");
+	}
+
+	
+}

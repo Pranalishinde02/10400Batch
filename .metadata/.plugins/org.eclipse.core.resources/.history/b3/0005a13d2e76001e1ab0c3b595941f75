@@ -1,0 +1,16 @@
+package Polymorphism;
+
+public class Circle extends Shape {
+	
+	public void AreaFormula()
+	{
+		System.out.println("Circle is 3.14 * radius * radius ");
+	}
+
+	public double Area(double radius)
+	{
+		double areaofcircle=3.14*radius*radius;
+		return areaofcircle;
+		
+	}
+}

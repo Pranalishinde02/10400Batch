@@ -1,0 +1,13 @@
+package Polymorphism;
+
+public class Area {
+	
+	void Area(int base, int width)
+	{
+		int AreaofTriangle=1/2*base*width;
+		System.out.println("Area of Triangle:"+AreaofTriangle);
+		
+	}
+
+	void Area(double base, int width)
+}

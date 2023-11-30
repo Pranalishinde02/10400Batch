@@ -1,0 +1,10 @@
+package Polymorphism;
+
+public class Circle extends Shape {
+	
+	public void Area()
+	{
+		System.out.println("Circle is 3.14 * radius * radius ");
+	}
+
+}

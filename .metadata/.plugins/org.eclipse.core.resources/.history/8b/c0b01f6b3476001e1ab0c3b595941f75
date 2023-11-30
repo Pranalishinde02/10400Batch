@@ -1,0 +1,14 @@
+package Polymorphism;
+
+public class Parent extends GrandParent {
+
+	@Override
+	public void Show() {
+		super.Show();
+		System.out.println("I am Parent.");
+	}
+	
+	
+	
+
+}

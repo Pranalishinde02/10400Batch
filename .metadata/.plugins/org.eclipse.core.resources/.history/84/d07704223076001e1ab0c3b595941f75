@@ -1,0 +1,12 @@
+package Polymorphism;
+
+public class Area {
+	
+	void Area(int base, int width)
+	{
+		int Areaofcircle=1/2*base*width;
+		System.out.println("Area of Circle:"+Areaofcircle);
+		
+	}
+
+}
